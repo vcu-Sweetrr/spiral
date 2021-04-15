@@ -11,5 +11,5 @@ def spiralize(number):
         if counter == 4: # if we make a full rotation arount the corners, got to next one
             i += 2 # increment the space need to reach corners
             counter = 0 # reset the rotation
-
+#
     return total
