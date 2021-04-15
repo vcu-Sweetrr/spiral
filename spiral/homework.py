@@ -4,7 +4,7 @@ def spiralize(number):
     i = 2 # increments that get added to starting point
     total = 0 # sum of the corners 
 
-    while x <= number ** 2: # while c is still less than square of number (size of spiral)
+    while x <= number ** 2: # while x is still less than square of number (size of spiral)
         total += x # number we are at gets added to total
         x += i # go to next corner
         counter += 1 # count of which corner we are at
